@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Myapp\\": "App/Myapp"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+        
+    },
+    "require": {
+        "twig/twig": "2.0"
+    }
+}

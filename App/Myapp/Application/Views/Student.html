@@ -1,0 +1,47 @@
+
+<!----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My mvc framework</h2>
+    <a href="http://localhost/mvcframework/app/myapp/">Home</a>
+    <a href="http://localhost/mvcframework/app/myapp/student/allstudent">All Student</a>
+    <?php //printf("<pre>%s</pre>",print_r($data,TRUE));?>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+    <body>
+
+
+       <center> <h1>My Webpage</h1></center>
+        
+
+         <div>
+        <ul>
+            {% for data in datas  %}
+        <pre>   
+                {{ data.sid }}
+                {{ data.stu_name }}
+                {{ data.gender }}
+                {{ data.address }}
+                {{ data.mobile }}
+                {{ data.aadhar }}
+        </pre><hr>
+            {% endfor %}
+        </ul>
+
+        </div>
+
+
+    </body>
+</html>
+
